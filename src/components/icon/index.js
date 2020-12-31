@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, ViewPropTypes } from 'react-native';
+import { Image } from 'react-native';
 import PropTypes from 'prop-types';
 
 import styles from './styles';
@@ -22,8 +22,7 @@ const imageSourcePropType = PropTypes.oneOfType([
 ]);
 
 Icon.propTypes = {
-  source: imageSourcePropType,
-  style: ViewPropTypes.style
+  source: imageSourcePropType
 };
 
 Icon.defaultProps = {

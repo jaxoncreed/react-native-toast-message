@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, TouchableOpacity, Text, ViewPropTypes } from 'react-native';
+import { View, TouchableOpacity, Text } from 'react-native';
 import PropTypes from 'prop-types';
 
 import Icon from '../icon';
@@ -83,14 +83,6 @@ BaseToast.propTypes = {
   onPress: PropTypes.func,
   onTrailingIconPress: PropTypes.func,
   onLeadingIconPress: PropTypes.func,
-  style: ViewPropTypes.style,
-  leadingIconContainerStyle: ViewPropTypes.style,
-  trailingIconContainerStyle: ViewPropTypes.style,
-  leadingIconStyle: ViewPropTypes.style,
-  trailingIconStyle: ViewPropTypes.style,
-  contentContainerStyle: ViewPropTypes.style,
-  text1Style: ViewPropTypes.style,
-  text2Style: ViewPropTypes.style,
   activeOpacity: PropTypes.number
 };
 

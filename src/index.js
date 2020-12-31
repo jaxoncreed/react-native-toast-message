@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Animated, PanResponder, ViewPropTypes, Keyboard } from 'react-native';
+import { Animated, PanResponder, Keyboard } from 'react-native';
 import PropTypes from 'prop-types';
 
 import SuccessToast from './components/success';
@@ -380,7 +380,6 @@ class Toast extends Component {
 
 Toast.propTypes = {
   config: PropTypes.objectOf(PropTypes.func),
-  style: ViewPropTypes.style,
   topOffset: PropTypes.number,
   bottomOffset: PropTypes.number,
   keyboardOffset: PropTypes.number,
