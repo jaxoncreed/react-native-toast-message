@@ -76,8 +76,6 @@ function BaseToast({
 BaseToast.HEIGHT = HEIGHT;
 
 BaseToast.propTypes = {
-  leadingIcon: Icon.propTypes.source,
-  trailingIcon: Icon.propTypes.source,
   text1: PropTypes.string,
   text2: PropTypes.string,
   onPress: PropTypes.func,
