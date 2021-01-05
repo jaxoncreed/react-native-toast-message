@@ -14,14 +14,9 @@ function Icon({ source, style }) {
   );
 }
 
-const imageSourcePropType = PropTypes.oneOfType([
-  PropTypes.number,
-  PropTypes.shape({
-    uri: PropTypes.string
-  })
-]);
-
-Icon.propTypes = {};
+Icon.propTypes = {
+  source: PropTypes.any
+};
 
 Icon.defaultProps = {
   source: undefined,

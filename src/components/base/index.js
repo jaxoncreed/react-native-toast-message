@@ -81,7 +81,9 @@ BaseToast.propTypes = {
   onPress: PropTypes.func,
   onTrailingIconPress: PropTypes.func,
   onLeadingIconPress: PropTypes.func,
-  activeOpacity: PropTypes.number
+  activeOpacity: PropTypes.number,
+  leadingIcon: PropTypes.any,
+  trailingIcon: PropTypes.any
 };
 
 BaseToast.defaultProps = {
